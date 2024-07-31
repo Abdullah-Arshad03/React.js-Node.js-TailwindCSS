@@ -1,11 +1,12 @@
-import React from 'react'
-import Greeting from './components/Greeting'
+import React from "react";
+import Greeting from "./components/Greeting";
+import HomeScreen from "./screens/HomeScreen";
 const App = () => {
-  return (<>
-   <div>app</div>
-   <Greeting/>
+  return (
+    <>
+      <HomeScreen />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

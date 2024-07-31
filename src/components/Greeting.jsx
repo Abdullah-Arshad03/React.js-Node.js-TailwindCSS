@@ -1,18 +1,14 @@
-import React from 'react'
+import React from "react";
 
 const Greeting = () => {
   return (
-<>
-<div>
-    <div className='text-gray-300'>
-    Hi Mr.Michael
-    </div>
-    <div className='font-bold'>
-        Welcome Back!
-    </div>
-</div>
-</>
-  )
-}
+    <>
+      <div>
+        <div className="text-gray-300 text-xl font-dm-sans">Hi Mr. Michael</div>
+        <div className="font-semibold text-2xl font-dm-sans">Welcome Back!</div>
+      </div>
+    </>
+  );
+};
 
-export default Greeting
+export default Greeting;
