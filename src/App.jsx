@@ -1,10 +1,11 @@
 import React from "react";
 import Greeting from "./components/Greeting";
-import HomeScreen from "./screens/HomeScreen";
+import ProductsScreen from "./screens/ProductsScreen";
+import { Outlet } from "react-router-dom";
 const App = () => {
   return (
     <>
-      <HomeScreen />
+      <Outlet></Outlet>
     </>
   );
 };
